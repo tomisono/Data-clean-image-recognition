@@ -4,15 +4,13 @@ pre-processing images using octave for computer vision project
 
 # Description
 The images are hand-drawn alphabetic letters from A to J.
-  I developed functions for pre-processing images before feeding to a neural network to train a model using TensorFlow.
-  The images were hand-drawn by me, which is not an effective way of getting training examples. Therefore for creating more training examples from existing images use the datasetmaker.m
-  The model made predictions on the Cross Validation set, which it had never seen before with 85% accuracy 
+I developed functions for pre-processing images before feeding to a neural network to train a model using TensorFlow.
+The images were hand-drawn by me, which is not an effective way of getting training examples. Therefore for creating more training examples from existing images use the datasetmaker.m
+The model made predictions on the cross-validation set with 85% accuracy. The cross-validation set was kept away from the model therefore it had never been seen before
 
 
 # Instructions
 Code for training a model found in TensorFlow training of model.ipynb
-The model made predictions on the Cross Validation set, which it had never seen before with 85% accuracy 
-
 
 To create new images use function datasetmaker.m
 it requires as input (number of images, pixel by pixel , 1==left or 0==right)
