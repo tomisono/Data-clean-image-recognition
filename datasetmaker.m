@@ -1,4 +1,5 @@
 function [gray] = datasetmaker(NP,NP1,NP2,L)                                           
+% input 1 for left OR 0 for right in variable L
 % datasetmaker(number of pictures, pixel by pixel, left or right)
 
 for n = 1:NP                % NP == No of pictures
