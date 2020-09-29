@@ -1,7 +1,7 @@
 function [gray] = imagematrix(imageNo,NP1,NP2)
  pkg load image    %Ensure to load image package
 features = NP1*NP2;
- vex = zeros(imageNo,features);      % No of images by No of features
+ vex = zeros(imageNo,features);      % Number of images by Number of features
 for n=1:imageNo
 images{n} = imread(sprintf('%d.png',n));
 NP1 = NP1;
